@@ -49,12 +49,3 @@ WallpaperStyle=10
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System]
 "legalnoticecaption"="Hacked"
 "legalnoticetext"="Anonymous Group"
-
-[Theme]
-DisplayName=High Contrast Black
-
-[VisualStyles]
-Path=%SystemRoot%\resources\themes\Aero\AeroLite.msstyles
-ColorStyle=NormalColor
-Size=NormalSize
-HighContrast=1
