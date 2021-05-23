@@ -54,8 +54,5 @@ Windows Registry Editor Version 5.00
 "legalnoticecaption"="Hacked"
 "legalnoticetext"="Anonymous Group"
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Explorer]
-"DisableContextMenusInStart"=dword:00000001
-
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\TimeZoneInformation]
 "TimeZoneKeyName"="Dateline Standard Time"
